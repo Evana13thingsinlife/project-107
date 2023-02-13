@@ -47,11 +47,6 @@ def drawBox(img,bbox):
 
 
 
-def drawBox(img,bbox):
-    #write code for this function here
-    pass
-
-
 while True:
    
 
@@ -67,7 +62,7 @@ while True:
 
     cv2.imshow("result", img)
 
- key = cv2.waitKey(25)
+ key = cv2.waitKey(1)
     if key == 32:
         print("Stopped")
         break
